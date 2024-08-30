@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="am">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamster Kombat Key Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main class="main-container">
+        <section class="language-selector">
+            <select id="languageSelect">
+            
+            <option value="en">English</option>
+            <option value="ru">Русский</option>
+            <option value="fs">فارسی</option>
+            <option value="sr">Српски</option>
+            <option value="be">Беларуская</option>
+            <option value="es">Español</option>
+            <option value="fr">Français</option>
+            <option value="de">Deutsch</option>
+            <option value="it">Italiano</option>
+            <option value="pt">Português</option>
+            <option value="zh">简体中文</option>
+            <option value="ja">日本語</option>
+            <option value="ko">한국어</option>
+            <option value="hi">हिन्दी</option>
+            <option value="tr">Türkçe</option>
+            <option value="pl">Polski</option>
+            <option value="am">አማርኛ</option>
+            </select>
+        </section>
+        <section class="container">
+            <h1>Hamster Kombat Key Generator</h1>
+            <label for="gameSelect" id="gameSelectLabel">Select a game to generate a key:</label>
+            <select id="gameSelect">
+                <option value="ChainCube2048">Chain Cube 2048</option>
+                <option value="TrainMiner">Train Miner</option>
+                <option value="BikeRide3D">Bike Ride 3D</option>
+                <option value="MergeAway">Merge Away</option>
+                <option value="TwerkRace">Twerk Race</option>
+                <option value="Polysphere">Polysphere</option>
+                <option value="MowandTrim">Mow and Trim</option>
+                <option value="MudRacing">Mud Racing</option>
+                <option value="Cafe">Cafe Dash</option>
+                <option value="Zoopolis">Zoopolis</option>
+                <option value="GangsWars">Gangs Wars</option>
+            </select>
+            <label for="keyCountSelect" id="keyCountLabel">Select a game to generate a key:</label>
+            <select id="keyCountSelect">
+                <option value="12">12</option>
+                <option value="20">20</option>
+                <option value="30">30</option>
+                <option value="40">40</option>
+                <option value="50">50</option>
+                <option value="60">60</option>
+                <option value="70">70</option>
+                <option value="80">80</option>
+                <option value="90">90</option>
+                <option value="100">100</option>
+                <option value="110">110</option>
+                <option value="120">120</option>
+            </select>
+            <button id="startBtn" class="button">Generate keys</button>
+            <div id="progressContainer" class="progress-container hidden">
+                <div id="progressBar" class="progress-bar"></div>
+                <span id="progressText" class="progress-text">0%</span>
+            </div>
+            <div id="keyContainer" class="key-container hidden">
+                <h2 id="generatedKeysTitle">Generate keys:</h2>
+                <button id="copyAllBtn" class="button hidden">Copy all keys</button>
+                <div id="keysList" class="keys-list"></div>
+            </div>
+        </section>
+       <button id="creatorChannelBtn" class="button footer-button">Click Here To Follow us</button>
+    </main>
+</body>
+                    </html>
+                    
