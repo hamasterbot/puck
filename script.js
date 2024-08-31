@@ -40,31 +40,31 @@ const gamePromoConfigs = {
         appToken: 'ef319a80-949a-492e-8ee0-424fb5fc20a6',
         promoId: 'ef319a80-949a-492e-8ee0-424fb5fc20a6',
         eventsDelay: 20000,
-        attemptsNumber: 20
+        attemptsNumber: 60
     },
     MudRacing:  {
         appToken: '8814a785-97fb-4177-9193-ca4180ff9da8',
         promoId: '8814a785-97fb-4177-9193-ca4180ff9da8',
         eventsDelay: 20000,
-        attemptsNumber: 20
+        attemptsNumber: 60
     },
     Cafe: {
         appToken: 'bc0971b8-04df-4e72-8a3e-ec4dc663cd11',
         promoId: 'bc0971b8-04df-4e72-8a3e-ec4dc663cd11',
         eventsDelay: 20000,
-        attemptsNumber: 20
+        attemptsNumber: 60
     },
     Zoopolis: {
         appToken: 'b2436c89-e0aa-4aed-8046-9b0515e1c46b',
         promoId: 'b2436c89-e0aa-4aed-8046-9b0515e1c46b',
         eventsDelay: 20000,
-        attemptsNumber: 20
+        attemptsNumber: 60
     },
     GangsWars: {
         appToken: 'b6de60a0-e030-48bb-a551-548372493523',
         promoId: 'c7821fa7-6632-482c-9635-2bd5798585f9',
         eventsDelay: 40000,
-        attemptsNumber: 30
+        attemptsNumber: 60
     },
 };
 
